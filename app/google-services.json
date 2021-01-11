@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "387384699461",
+    "project_id": "recetas-11b67",
+    "storage_bucket": "recetas-11b67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387384699461:android:90c6bb8c31af0ee94c912c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387384699461-r5fco1okgfg2d6s3j2dsrr8c7nu79rt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication2",
+            "certificate_hash": "e528dae15fbbf9006c80ad465ccfa1602b556ac0"
+          }
+        },
+        {
+          "client_id": "387384699461-km5j1pq8t76v562r7mmq5p5gupindt37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNnD_kQ5WwY5IcP-CgMyeq213sDspF4M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387384699461-km5j1pq8t76v562r7mmq5p5gupindt37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

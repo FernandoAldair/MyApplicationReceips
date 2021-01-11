@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapplication2.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.myapplication2.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifi"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.myapplication2.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+
+    <fragment
+        android:id="@+id/navigation_myList"
+        android:name="com.example.myapplication2.MyListFragment"
+        android:label="fragment_my_list"
+        tools:layout="@layout/fragment_my_list" >
+        <action
+            android:id="@+id/action_navigation_myList_to_createReceip"
+            app:destination="@id/createReceip" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createReceip"
+        android:name="com.example.myapplication2.CreateReceip"
+        android:label="fragment_create_receip"
+        tools:layout="@layout/fragment_create_receip" />
+
+
+</navigation>
