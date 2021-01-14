@@ -5,6 +5,7 @@
     <string name="title_notifi">Notifications</string>
     <string name="title_mylist">Mi lista</string>
     <string name="title_nombre_receta">Nombre de la receta</string>
+    <string name="title_tiempo">time</string>
     <string name="title_descripcion">Preparacion de la receta</string>
     <string name="title_buscar">Buscar ingredientes</string>
     <string name="title_preparacion">Describir preparacion</string>
@@ -15,6 +16,7 @@
     <!--Botones-->
     <string name="button_login">Iniciar</string>
     <string name="button_register">Registrarse</string>
-    <string name="button_invited">incognito</string>
+    <string name="button_invited">Invitado</string>
+    <string name="button_create">Crear</string>
 
 </resources>

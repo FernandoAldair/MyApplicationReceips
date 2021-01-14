@@ -10,7 +10,7 @@ import android.view.WindowManager;
 
 public class SplashActivity extends Activity {
 //  Duracion de splash
-    private final int Duracion_Splash = 3000;
+    private final int Duracion_Splash = 500;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

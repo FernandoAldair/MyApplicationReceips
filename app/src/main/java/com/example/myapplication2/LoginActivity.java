@@ -15,7 +15,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Button buttonIncognito = findViewById(R.id.buttonIncognito);
+        Button buttonIncognito = findViewById(R.id.buttonInvitado);
         buttonIncognito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
